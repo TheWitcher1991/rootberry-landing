@@ -1,0 +1,149 @@
+@media (max-width: 1200px) {
+  .problem-badge--left {
+    left: 4%;
+  }
+
+  .problem-badge--right {
+    right: 4%;
+  }
+
+  .contact-card__art {
+    opacity: 0.35;
+    right: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .method-cards,
+  .audience-cards {
+    grid-template-columns: 1fr;
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .method-card--1 .method-card__body,
+  .method-card--2 .method-card__body,
+  .method-card--3 .method-card__body,
+  .audience-card--1,
+  .audience-card--3 {
+    transform: none;
+  }
+
+  .stats-box {
+    flex-direction: column;
+    padding: 32px 24px;
+  }
+
+  .stats-box__divider {
+    width: 100%;
+    height: 1px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .section-problem {
+    min-height: auto;
+    padding-bottom: 24px;
+  }
+
+  .section-problem-visual {
+    min-height: auto;
+  }
+
+  .problem-badge {
+    position: static;
+    transform: none;
+    margin: 16px auto 0;
+    max-width: 100%;
+  }
+
+  .section-problem-doctor {
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  #main {
+    padding: 12px;
+    gap: 12px;
+  }
+
+  #header {
+    min-height: 100svh;
+  }
+
+  .section-header {
+    padding: 16px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .section-text {
+    font-size: 18px;
+  }
+
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-link span,
+  .nav-link {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .section-hero-footer {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  .contact-card {
+    flex-direction: column;
+    padding: 32px 24px;
+    align-items: flex-start;
+  }
+
+  .contact-card__art {
+    position: relative;
+    right: auto;
+    top: auto;
+    transform: rotate(-12deg);
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .site-footer__nav {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .site-footer__grant {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  .problem-badge {
+    padding: 20px;
+  }
+
+  .problem-badge__price,
+  .problem-badge__title {
+    font-size: 24px;
+  }
+
+  .stats-box__value {
+    font-size: 32px;
+  }
+}
