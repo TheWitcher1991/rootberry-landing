@@ -1,0 +1,20 @@
+:root {
+    --font-title: 'Versus', sans-serif;
+    --font-base: 'Roboto', sans-serif;
+    --font: normal 16px var(--font-base);
+}
+
+:root {
+    --transition-linear: all 0.1s ease-in-out;
+}
+
+:root {
+    --color-brand: #33281D;
+    --color-base-brand: #F5E3C2;
+    --color-white: #FFFFFF;
+    --color-tiny:rgba(255, 255, 255, 0.6);
+    --color-glass: rgba(245, 230, 202, 0.3);
+    --color-second: #AEAEAE;
+    --color-block: rgba(245, 230, 202, 0.3);
+    --block-radius: 32px;
+}
