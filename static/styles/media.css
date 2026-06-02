@@ -14,6 +14,7 @@
 }
 
 @media (max-width: 1024px) {
+
   .method-cards,
   .audience-cards {
     grid-template-columns: 1fr;
@@ -62,6 +63,7 @@
 
   .section-problem-doctor {
     margin-top: 16px;
+    border-radius: 16px;
   }
 }
 
@@ -72,11 +74,13 @@
   }
 
   #header {
-    min-height: 100svh;
+    min-height: fit-content;
+    height: 100%;
   }
 
   .section-header {
     padding: 16px;
+    height: 100%;
   }
 
   .section-title {
@@ -100,6 +104,7 @@
   .section-hero-footer {
     font-size: 18px;
     margin-bottom: 16px;
+    display: none;
   }
 
   .contact-card {
@@ -115,6 +120,7 @@
     transform: rotate(-12deg);
     width: 70%;
     margin: 0 auto;
+    display: none;
   }
 
   .site-footer__nav {

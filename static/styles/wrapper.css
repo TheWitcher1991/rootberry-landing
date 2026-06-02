@@ -196,7 +196,7 @@
 .menu a {
     font-weight: 500;
     font-size: 16px;
-    padding: 10px;
+    padding: 0 10px;
     color: var(--color-white);
     transition: var(--transition-linear);
 }
@@ -230,7 +230,6 @@
 /* Problem */
 .section-problem {
     background: var(--color-base-brand);
-    min-height: 888px;
     position: relative;
     padding-bottom: 0;
 }
